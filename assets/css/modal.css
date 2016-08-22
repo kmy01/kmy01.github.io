@@ -14,7 +14,6 @@
   margin: 0 auto;
   width: 80%;
   height: 100%;
-  display: inline-block;
 }
 
 .resume {
@@ -23,10 +22,13 @@
 }
 
 .close-modal {
-  padding: 20px 20px 0 0;
-  float: right;
-  font-family: sans-serif;
+  padding: 10px 10px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Architects Daughter';
+  font-weight: bold;
   color: #545454;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 36px;
 }
