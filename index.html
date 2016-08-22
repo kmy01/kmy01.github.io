@@ -12,6 +12,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/modal.css" />
 	</head>
 	<body>
 
@@ -32,10 +33,9 @@
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/kei-man-yeung-16928880
-" class="icon fa-linkedin"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/keimanyeung" class="icon fa-linkedin"><span class="label">Github</span></a></li>
 						<li><a href="https://github.com/kmy01" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-black-tie"><span class="label">Resume</span></a></li>
+						<li><a href="#resume" class="icon fa-black-tie resume-link"><span class="label">Resume</span></a></li>
 						<li><a href="mailto:ky2286@columbia.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
@@ -65,33 +65,33 @@
 									<p></p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a href="http://www.postrblog.tech" class="image"><img src="images/pic01.png" alt="" /></a>
 											<div class="inner">
 												<div>
 													<h4>Postr</h4>
 													<a
 													href="https://github.com/kmy01/postr"
 													class='my-link'>GitHub</a>
-													<a href="#" class='my-link'>Live</a>
+													<a href="http://www.postrblog.tech" class='my-link'>Live</a>
 												</div>
 												<p>A social blogging medium inspired by Tumblr built with Ruby on Rails, PostgreSQL, and React.js</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<a href="http://www.keimanyeung.me/bubbles" class="image"><img src="images/pic02.png" alt="" /></a>
 											<div class="inner">
 												<div>
 													<h4>BubbleS</h4>
 													<a
 													href="https://github.com/kmy01/bubbles"
 													class='my-link'>GitHub</a>
-													<a href="#" class='my-link'>Live</a>
+													<a href="http://www.keimanyeung.me/bubbles" class='my-link'>Live</a>
 												</div>
 												<p>A browser game based on the classic game of Puzzle Bobble built with Javascript and HTML5 canvas </p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<a href="https://github.com/kmy01/RubyRMap" class="image"><img src="images/pic03.png" alt="" /></a>
 											<div class="inner">
 												<div>
 													<h4>RubyRMap</h4>
@@ -132,7 +132,14 @@
 								<div class="container">
 									<h3>Contact</h3>
 									<p><a href="mailto: ky2286@columbia.edu" class="icon fa-envelope">  Email: ky2286@columbia.edu</a><br />
-									<a href="#" class="icon fa-file-o">  Resume</a></p>
+									<a href="#resume" class="icon fa-file-o resume-link">  Resume</a></p>
+									<div class="resume-modal">
+										<div class="resume-content">
+											<a name="resume"></a>
+											<embed class='resume' src="./docs/keimanyeung_resume.pdf">
+										</div>
+										<span class='close-modal'>X</span>
+									</div>
 								</div>
 							</section>
 
@@ -150,6 +157,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/modal.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
